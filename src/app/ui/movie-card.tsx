@@ -17,7 +17,7 @@ const MovieCard = ({ movie }: { movie: Movie }) => {
 
       <div className="flex-1 p-3 text-center sm:text-left">
         <p className="mb-5">
-          {movie.title} by {movie.director} was released on {movie.year}.
+          {movie.title} by {movie.director} was released in {movie.year}.
         </p>
 
         <p>Rating: {movie.rating}</p>
