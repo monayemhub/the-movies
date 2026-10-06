@@ -9,6 +9,9 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: "The Movies",
+  icons: {
+    icon: "/movie-logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
